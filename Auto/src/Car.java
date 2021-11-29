@@ -51,7 +51,7 @@ public class Car {
 
 	public static void main(String[] args) {
 
-		Car car = new Car("Toyota", "Rav4", 40);
+		Car car = new Car("BMW", "M3", 50);
 		System.out.println("a=accelerate b=break x=exit");
 		Scanner s = new Scanner(System.in);
 		
