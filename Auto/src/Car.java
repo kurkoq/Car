@@ -32,7 +32,7 @@ public class Car {
 	}
 	
 	public void fastAccelerate() {
-		if (amountOfFuel > 0) {
+		if (amountOfFuel > 1) {
 			System.out.println("Car is accelerating fast");
 			amoountOfFuel = amountOfFuel - 2;
 		}
