@@ -31,6 +31,13 @@ public class Car {
 		}
 	}
 	
+	public void fastAccelerate() {
+		if (amountOfFuel > 0) {
+			System.out.println("Car is accelerating fast");
+			amoountOfFuel = amountOfFuel - 2;
+		}
+	}
+	
 	public void refuel(int amount) {
 		System.out.println("Fuel in the tank: " + amountOfFuel + "\n" + "Refuel: " + amount);
 		amountOfFuel += amount; 
